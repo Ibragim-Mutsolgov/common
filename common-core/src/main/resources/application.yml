@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    open-in-view: false
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    url: jdbc:postgresql://172.16.3.6:5432/common
+    name: nsa
+    password: SSDbuyitCheap2022
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 8090
